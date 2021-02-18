@@ -11,7 +11,7 @@ export default ({ data }) => (
       fluid={data.heroImage.fluid}
     />
     <div className={styles.heroDetails}>
-      <h3 className={styles.heroHeadline}>{data.name}</h3>
+      <span className={styles.heroHeadline}>{data.name}</span>
       <p className={styles.heroTitle}>{data.title}</p>
       <p>{data.shortBio.shortBio}</p>
     </div>
